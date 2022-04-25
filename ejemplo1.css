@@ -1,5 +1,68 @@
-h1{
+h1,h4,h5{
     text-transform: uppercase;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(198, 190, 190);
+}
+li,p,form{
+    text-align: center;
+}
+.destacados{
+    font-weight: bold;
+}
+
+div{
+    background-color: rgb(247, 240, 240);
+    height: 2000px;
+    margin:0 auto;
+    position: relative;
+}
+#azul{
+    position: static;
+    background-color: blue;
+    width: 1000px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#rojo{
+    position:relative;
+    top: 50px;
+    left: 50px;
+    background-color: red;
+    width: 1000px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#verde{
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    background-color: green;
+    width: 1000px;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
+}
+#amarillo{
+    /*position:fixed;
+    top: 0px;*/
+    background-color: yellowgreen;
+    width: 1000px;
+    height: 500px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    border: 1px solid black;
+    padding: 20px;
+    box-sizing: border-box;
 }
